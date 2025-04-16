@@ -1,0 +1,17 @@
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\bin\Debug\net8.0\MovieRecommendation.Application.deps.json
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\bin\Debug\net8.0\MovieRecommendation.Application.runtimeconfig.json
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\bin\Debug\net8.0\MovieRecommendation.Application.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\bin\Debug\net8.0\MovieRecommendation.Application.pdb
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\bin\Debug\net8.0\MovieRecommendation.Domain.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\bin\Debug\net8.0\MovieRecommendation.Domain.pdb
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.csproj.AssemblyReference.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.AssemblyInfoInputs.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.AssemblyInfo.cs
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.csproj.CoreCompileInputs.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRec.860C7365.Up2Date
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\refint\MovieRecommendation.Application.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.pdb
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.genruntimeconfig.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\ref\MovieRecommendation.Application.dll
