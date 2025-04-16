@@ -5,7 +5,7 @@ namespace MovieRecommendation.Application.Interfaces.Repositories
     {
         Task<Movie?> GetByIdAsync(Guid id);
         Task<List<Movie>?> GetByTitle(string title);
-        IQueryable<Movie> Search(string? title, List<string>? genres);
+        IQueryable<Movie> SearchMovie(string? title, List<string>? genres);
         Task AddAsync(Movie movie);
 
         Task UpdateAsync(Movie movie);

@@ -31,7 +31,7 @@ namespace MovieRecommendation.Infrastructure.Repositories
             return movies.Count > 0 ? movies : null;
         }
 
-        public Task<IQueryable<Movie>> Search(string? title, List<string>? genres) 
+        public IQueryable<Movie> SearchMovie(string? title, List<string>? genres) 
         {
             var query = _dbContext.Movie.AsQueryable();
             if (!string.IsNullOrEmpty(title))

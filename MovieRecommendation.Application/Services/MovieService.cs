@@ -23,7 +23,7 @@ namespace MovieRecommendation.Application.Services
 
         public async Task<IEnumerable<MovieDTO>> SearchMovieByFilter(string? title, List<string>? genres, int page, int pageSize)
         {
-            var query = _movieRepository.Search(title, genres);
+            var query = _movieRepository.SearchMovie(title, genres);
 
             var movies = await query
                 .OrderBy(m => m.MeanRating)
