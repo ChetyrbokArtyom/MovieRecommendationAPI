@@ -17,3 +17,4 @@ C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Infrastru
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Infrastructure\obj\Debug\net8.0\MovieRecommendation.Infrastructure.pdb
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Infrastructure\obj\Debug\net8.0\MovieRecommendation.Infrastructure.genruntimeconfig.cache
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Infrastructure\obj\Debug\net8.0\ref\MovieRecommendation.Infrastructure.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Infrastructure\obj\Debug\net8.0\MovieRecommendation.Infrastructure.sourcelink.json

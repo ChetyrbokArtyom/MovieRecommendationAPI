@@ -3,7 +3,7 @@ namespace MovieRecommendation.Application.Interfaces.Repositories
 {
     public interface IMovieRepository
     {
-        Task<Movie?> GetByIdAsync(Guid id);
+        Task<Movie?> GetByIdAsync(int id);
         Task<List<Movie>?> GetByTitle(string title);
         IQueryable<Movie> SearchMovie(string? title, List<string>? genres);
         Task AddAsync(Movie movie);

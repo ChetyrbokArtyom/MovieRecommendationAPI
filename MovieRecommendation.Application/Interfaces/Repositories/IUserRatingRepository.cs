@@ -2,8 +2,8 @@
 namespace MovieRecommendation.Application.Interfaces.Repositories
 {
     public interface IUserRatingRepository
-    {   
-        Task UpdateUserRatingAsync(Guid MovieId, Guid UserId, float newRating);
+    {
+        Task UpdateUserRatingAsync(int MovieId, Guid UserId, float newRating);
     
     }
 }

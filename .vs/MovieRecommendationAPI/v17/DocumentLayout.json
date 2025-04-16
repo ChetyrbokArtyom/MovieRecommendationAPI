@@ -3,84 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\repositories\\iuserratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\repositories\\iuserratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\configurations\\userratingsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\configurations\\userratingsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\mappers\\userratingmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\mappers\\userratingmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\mappers\\moviemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\mappers\\moviemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\searchmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\searchmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\userratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\userratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF40A9A3-C7E7-40CA-A504-0487CE34ACF8}|MovieRecommendationAPI\\MovieRecommendationAPI.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF40A9A3-C7E7-40CA-A504-0487CE34ACF8}|MovieRecommendationAPI\\MovieRecommendationAPI.csproj|solutionrelative:movierecommendationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\irecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\irecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\repositories\\userratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\repositories\\userratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,36 +67,68 @@
       "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\entities\\userratings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\configurations\\usersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\configurations\\usersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\configurations\\userratingsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\configurations\\userratingsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\mappers\\userratingmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\mappers\\userratingmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\userratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\userratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\mappers\\moviemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\mappers\\moviemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\repositories\\iuserratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\repositories\\iuserratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\interfaces\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\interfaces\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\updategenresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\updategenresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.application\\dtos\\searchmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC4E3D2-23EC-4B93-9A54-91A0D253A4B9}|MovieRecommendation.Application\\MovieRecommendation.Application.csproj|solutionrelative:movierecommendation.application\\dtos\\searchmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.domain\\movierecommendation.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{49D0180B-BC61-4B24-B7E7-7446BD41E8E5}|MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj|solutionrelative:movierecommendation.domain\\movierecommendation.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendation.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D043AA4F-FD1B-49C9-A43B-C4B65F6AADDF}|MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj|solutionrelative:movierecommendation.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF40A9A3-C7E7-40CA-A504-0487CE34ACF8}|MovieRecommendationAPI\\MovieRecommendationAPI.csproj|c:\\users\\chete\\source\\repos\\movierecommendationapi\\movierecommendationapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -142,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -151,97 +159,240 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Title": "IRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:00:44.81Z",
+              "WhenOpened": "2025-03-21T10:13:22.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IMovieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:59:03.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
-              "RelativeToolTip": "MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:06:15.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T19:01:42.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "IMovieService.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IMovieService.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IMovieService.cs",
               "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IMovieService.cs",
               "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IMovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:12:37.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MovieRecommendationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendationAPI\\Program.cs",
+              "RelativeToolTip": "MovieRecommendationAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:09:43.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRatingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:59:54.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateMovieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:59:29.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:59:43.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRecommendationService.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:13:04.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:12:18.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T19:01:42.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\RatingService.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Services\\RatingService.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\RatingService.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Services\\RatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T18:39:58.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Application\\Services\\MovieService.cs",
               "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Services\\MovieService.cs",
               "RelativeToolTip": "MovieRecommendation.Application\\Services\\MovieService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T13:12:01.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRatingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:03:58.302Z",
+              "WhenOpened": "2025-03-18T06:06:45.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "UserRatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
+              "RelativeToolTip": "MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:07:57.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "MovieRecommendation.Infrastructure\\Repositories\\MovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:06:15.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Users.cs",
+              "RelativeToolTip": "MovieRecommendation.Domain\\Entities\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:17:32.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRatings.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\UserRatings.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Entities\\UserRatings.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\UserRatings.cs",
+              "RelativeToolTip": "MovieRecommendation.Domain\\Entities\\UserRatings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:17:27.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Movie.cs",
+              "RelativeToolTip": "MovieRecommendation.Domain\\Entities\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:17:18.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
+              "RelativeToolTip": "MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:17:49.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "UserRatingsConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\UserRatingsConfiguration.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Configurations\\UserRatingsConfiguration.cs",
@@ -254,67 +405,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "MovieRecommendation.Infrastructure\\Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvy4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "MovieConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
+              "RelativeToolTip": "MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:06:45.751Z"
+              "WhenOpened": "2025-03-21T11:12:45.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:12:18.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IRatingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:13:22.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "UserRatingMapper.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\UserRatingMapper.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Application\\Mappers\\UserRatingMapper.cs",
               "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\UserRatingMapper.cs",
               "RelativeToolTip": "MovieRecommendation.Application\\Mappers\\UserRatingMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T10:26:13.008Z"
+              "WhenOpened": "2025-03-22T10:26:13.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Mappers\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Mappers\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:25:43.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "MovieMapper.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\MovieMapper.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Application\\Mappers\\MovieMapper.cs",
               "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\MovieMapper.cs",
               "RelativeToolTip": "MovieRecommendation.Application\\Mappers\\MovieMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T10:25:33.858Z"
+              "WhenOpened": "2025-03-22T10:25:33.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
+              "Title": "IUserRatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUserRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:03:58.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Repositories\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:00:44.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs*",
+              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Repositories\\IMovieRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:59:03.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:00:08.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateGenresDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:10:58.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
+              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
+              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:58:44.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "SearchMovieDTO.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\SearchMovieDTO.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\SearchMovieDTO.cs",
@@ -322,71 +543,25 @@
               "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\SearchMovieDTO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvwoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T22:27:23.463Z"
+              "WhenOpened": "2025-03-23T22:27:23.463Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Entities\\Movie.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Movie.cs",
-              "RelativeToolTip": "MovieRecommendation.Domain\\Entities\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:17:18.755Z"
+              "DocumentIndex": 30,
+              "Title": "MovieRecommendation.Domain",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+              "RelativeToolTip": "MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-16T18:40:07.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MovieDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\MovieDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:59:43.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "MovieRecommendationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendationAPI\\Program.cs",
-              "RelativeToolTip": "MovieRecommendationAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:09:43.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IRecommendationService.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Interfaces\\Services\\IRecommendationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:13:04.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRatingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
-              "RelativeToolTip": "MovieRecommendation.Infrastructure\\Repositories\\UserRatingRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:07:57.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\Data\\ApplicationDbContext.cs",
@@ -398,127 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Users.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Entities\\Users.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\Users.cs",
-              "RelativeToolTip": "MovieRecommendation.Domain\\Entities\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:17:32.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserRatings.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\UserRatings.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Entities\\UserRatings.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Entities\\UserRatings.cs",
-              "RelativeToolTip": "MovieRecommendation.Domain\\Entities\\UserRatings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:17:27.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreateMovieDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\CreateMovieDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:59:29.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RegisterUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\RegisterUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:58:44.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T10:00:08.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MovieConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
-              "RelativeToolTip": "MovieRecommendation.Domain\\Configurations\\MovieConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:12:45.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UsersConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
-              "RelativeToolTip": "MovieRecommendation.Domain\\Configurations\\UsersConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:17:49.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\UserMapper.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\Mappers\\UserMapper.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\Mappers\\UserMapper.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\Mappers\\UserMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T10:25:43.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserRatingDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\UserRatingDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:59:54.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UpdateGenresDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
-              "RelativeDocumentMoniker": "MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
-              "ToolTip": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
-              "RelativeToolTip": "MovieRecommendation.Application\\DTOs\\UpdateGenresDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:10:58.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendationAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MovieRecommendationAPI\\appsettings.Development.json",
@@ -530,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendationAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MovieRecommendationAPI\\appsettings.json",
@@ -542,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "MovieRecommendation.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj",
               "RelativeDocumentMoniker": "MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj",
@@ -550,7 +605,8 @@
               "RelativeToolTip": "MovieRecommendation.Infrastructure\\MovieRecommendation.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-13T12:33:58.038Z"
+              "WhenOpened": "2025-03-13T12:33:58.038Z",
+              "EditorCaption": ""
             }
           ]
         }

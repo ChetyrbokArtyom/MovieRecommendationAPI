@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MovieRecommendation.Application.DTOs;
-using MovieRecommendation.Application.Interfaces.Repositories;
+﻿using MovieRecommendation.Application.DTOs;
 using MovieRecommendation.Application.Interfaces.Services;
+using MovieRecommendation.Application.Mappers;
+using MovieRecommendation.Application.Interfaces.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 namespace MovieRecommendation.Application.Services
 {
     class UserService

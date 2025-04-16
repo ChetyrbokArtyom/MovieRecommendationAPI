@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using MovieRecommendation.Application.DTOs;
+﻿using MovieRecommendation.Application.DTOs;
 using MovieRecommendation.Domain.Entities;
 namespace MovieRecommendation.Application.Mappers
 {
@@ -22,7 +18,6 @@ namespace MovieRecommendation.Application.Mappers
         {
             return new Movie
             {
-                Id = Guid.NewGuid(),
                 Title = movieDto.Title,
                 Genre = movieDto.Genre
             };

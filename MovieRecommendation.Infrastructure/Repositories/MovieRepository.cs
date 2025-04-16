@@ -2,9 +2,6 @@
 using MovieRecommendation.Application.Interfaces.Repositories;
 using MovieRecommendation.Domain.Entities;
 using MovieRecommendation.Infrastructure.Data;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace MovieRecommendation.Infrastructure.Repositories
 {
@@ -16,7 +13,7 @@ namespace MovieRecommendation.Infrastructure.Repositories
         {
             _dbContext = dbContext;
         }
-        public async Task<Movie?> GetByIdAsync(Guid id) 
+        public async Task<Movie?> GetByIdAsync(int id) 
         {
             return await _dbContext.Movie
                     .AsNoTracking()

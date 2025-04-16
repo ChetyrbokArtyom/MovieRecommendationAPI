@@ -10,3 +10,4 @@ C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\ob
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\refint\MovieRecommendation.Domain.dll
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.pdb
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\ref\MovieRecommendation.Domain.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.sourcelink.json

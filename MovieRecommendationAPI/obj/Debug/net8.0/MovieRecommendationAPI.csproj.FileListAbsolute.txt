@@ -143,3 +143,4 @@ C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendationAPI\obj\De
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendationAPI\obj\Debug\net8.0\MovieRecommendationAPI.genruntimeconfig.cache
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendationAPI\obj\Debug\net8.0\ref\MovieRecommendationAPI.dll
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendationAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendationAPI\obj\Debug\net8.0\MovieRecommendationAPI.sourcelink.json

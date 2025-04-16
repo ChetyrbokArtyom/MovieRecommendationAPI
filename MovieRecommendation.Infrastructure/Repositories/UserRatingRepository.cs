@@ -19,15 +19,21 @@ namespace MovieRecommendation.Infrastructure.Repositories
         {
             _dbContext = dbContext;
         }
-        public async Task UpdateUserRatingAsync(Guid MovieId,Guid UserId,float newRating) 
+        public async Task UpdateUserRatingAsync(int movieId,Guid userId,float newRating) 
         {
-            var existingUserRating = await _dbContext.UserRatings.FindAsync(UserId, MovieId);
-            if (existingUserRating == null)
-                throw new KeyNotFoundException("Оценка не найдена");
+            var UserRating = await _dbContext.UserRatings.FindAsync(userId, movieId);
+            if (UserRating != null)
+                UserRating.Rating = newRating;
+            else
+                UserRating = new UserRatings
+                {
+                    UserId = userId,
+                    MovieId = movieId,
+                    Rating = newRating
+                };
+                
 
-            existingUserRating.Rating = newRating;
-
-            await _dbContext.SaveChangesAsync();
+                await _dbContext.SaveChangesAsync();
         }
     }
 }

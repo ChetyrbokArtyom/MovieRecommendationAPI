@@ -15,3 +15,4 @@ C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Applicati
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.pdb
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.genruntimeconfig.cache
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\ref\MovieRecommendation.Application.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Application\obj\Debug\net8.0\MovieRecommendation.Application.sourcelink.json

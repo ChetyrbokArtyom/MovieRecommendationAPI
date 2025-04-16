@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MovieRecommendation.Application.DTOs;
+using MovieRecommendation.Domain.Entities;
 
 namespace MovieRecommendation.Application.Interfaces.Services
 {
-    class IRatingService
+    public interface IRatingService
     {
+        Task<Movie> RateFilm(int MovieId,Guid UserID,float rate); 
     }
 }
