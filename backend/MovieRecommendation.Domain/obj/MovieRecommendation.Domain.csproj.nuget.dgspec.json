@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj": {}
+    "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\backend\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj": {
+    "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\backend\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\backend\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
         "projectName": "MovieRecommendation.Domain",
-        "projectPath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+        "projectPath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\backend\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
         "packagesPath": "C:\\Users\\chete\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\obj\\",
+        "outputPath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\backend\\MovieRecommendation.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

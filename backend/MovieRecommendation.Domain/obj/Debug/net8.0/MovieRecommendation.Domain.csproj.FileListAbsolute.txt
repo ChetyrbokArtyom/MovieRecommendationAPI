@@ -11,3 +11,16 @@ C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\ob
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.pdb
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\ref\MovieRecommendation.Domain.dll
 C:\Users\chete\source\repos\MovieRecommendationAPI\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.sourcelink.json
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\bin\Debug\net8.0\MovieRecommendation.Domain.deps.json
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\bin\Debug\net8.0\MovieRecommendation.Domain.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\bin\Debug\net8.0\MovieRecommendation.Domain.pdb
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.csproj.AssemblyReference.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.AssemblyInfoInputs.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.AssemblyInfo.cs
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.csproj.CoreCompileInputs.cache
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.sourcelink.json
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\refint\MovieRecommendation.Domain.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\MovieRecommendation.Domain.pdb
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendation.Domain\obj\Debug\net8.0\ref\MovieRecommendation.Domain.dll

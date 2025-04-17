@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mlZPDK1wdN4=",
+  "dgSpecHash": "tp7NVs4bLks=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
+  "projectFilePath": "C:\\Users\\chete\\source\\repos\\MovieRecommendationAPI\\backend\\MovieRecommendation.Domain\\MovieRecommendation.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chete\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.3\\microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
     "C:\\Users\\chete\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.3\\microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512",
