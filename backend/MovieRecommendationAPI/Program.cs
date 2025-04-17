@@ -25,3 +25,4 @@ app.MapPost("/movies", async ([FromBody] CreateMovieDTO movieDto, IMovieService 
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
+ßÔ
