@@ -1,0 +1,31 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: #ff3d00;
+  }
+  
