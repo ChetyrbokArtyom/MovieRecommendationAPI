@@ -1,11 +1,33 @@
 <div class="popular-container">
-    <h2>Популярное сегодня</h2>
-    <div class="carousel">
-      <button class="arrow left">←</button>
-      <div class="cards">
-        <div class="card" *ngFor="let movie of movies"></div>
+  <h2 class="section-title">Популярное сегодня</h2>
+
+  <div class="carousel-container">
+    <button class="nav-arrow prev" (click)="prevSlide()">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
+      </svg>
+    </button>
+
+    <div class="movies-row">
+      <div class="movie-card" *ngFor="let movie of visibleMovies">
+        <div class="poster-container">
+          <img [src]="movie.Poster" [alt]="movie.Title" class="poster">
+        </div>
+        <div class="movie-info">
+          <h3 class="title">{{movie.Title}}</h3>
+          <div class="meta">
+            <span class="year">{{movie.Year}}</span>
+            <span class="separator">•</span>
+            <span class="genre">{{movie.Genre || 'Не указан'}}</span>
+          </div>
+        </div>
       </div>
-      <button class="arrow right">→</button>
     </div>
+
+    <button class="nav-arrow next" (click)="nextSlide()">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+      </svg>
+    </button>
   </div>
-  
+</div>

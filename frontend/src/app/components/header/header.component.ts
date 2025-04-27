@@ -1,11 +1,23 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent {
 
+export class HeaderComponent {
+  showAuthModal = false;
+
+  toggleAuthModal(): void {
+    this.showAuthModal = !this.showAuthModal;
+  }
+
+  closeAuthModal(): void {
+    this.showAuthModal = false;
+  }
 }

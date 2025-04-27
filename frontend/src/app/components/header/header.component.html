@@ -1,12 +1,23 @@
 <header class="app-header">
-    <div class="logo-container">
-      <img src="/assets/images/logo.png" alt="Logo" class="logo" />
+  <div class="logo-container">
+    <img src="/assets/images/logo.png" alt="Logo" class="logo" />
+  </div>
+  <nav class="nav-links">
+    <a routerLink="/" routerLinkActive="active">Главная</a>
+    <a routerLink="/popular" routerLinkActive="active">Популярное</a>
+    <a routerLink="/favorites" routerLinkActive="active">Избранное</a>
+    <div class="profile-container">
+      <img src="/assets/images/profile.png" alt="profile" class="profile-icon" (click)="toggleAuthModal()">
+      <div class="auth-modal" *ngIf="showAuthModal">
+        <div class="auth-options">
+          <button class="auth-btn register">Регистрация</button>
+          <button class="auth-btn login">Вход</button>
+          <div class="divider">
+            <span>или</span>
+          </div>
+          <button class="auth-btn social-login">войти с помощью</button>
+        </div>
+      </div>
     </div>
-    <nav class="nav-links">
-      <a routerLink="/" routerLinkActive="active">Главная</a>
-      <a routerLink="/popular" routerLinkActive="active">Популярное</a>
-      <a routerLink="/favorites" routerLinkActive="active">Избранное</a>
-      <a routerLink="/profile" routerLinkActive="active"><img src="/assets/images/profile.png" alt="profile"></a>
-    </nav>
-  </header>
-  
+  </nav>
+</header>
