@@ -12,8 +12,3 @@ namespace MovieRecommendation.Application.Interfaces.Repositories
     }
 }
 
-
-//Зарегистрировать нового пользователя.
-//Получить пользователя по ID.
-//Найти пользователя по логину.
-//Удалить пользователя.

@@ -35,5 +35,9 @@ namespace MovieRecommendation.Infrastructure.Repositories
 
                 await _dbContext.SaveChangesAsync();
         }
+        public IQueryable<UserRatings> GetRatingsForMovie(int movieId)
+        {
+            return _dbContext.UserRatings.Where(ur => ur.MovieId == movieId);
+        }
     }
 }

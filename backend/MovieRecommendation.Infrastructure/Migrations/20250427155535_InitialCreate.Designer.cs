@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MovieRecommendation.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250322145813_initial")]
-    partial class initial
+    [Migration("20250427155535_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,9 +27,11 @@ namespace MovieRecommendation.Infrastructure.Migrations
 
             modelBuilder.Entity("MovieRecommendation.Domain.Entities.Movie", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Genre")
                         .IsRequired()
@@ -52,8 +54,8 @@ namespace MovieRecommendation.Infrastructure.Migrations
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("MovieId")
-                        .HasColumnType("uuid");
+                    b.Property<int>("MovieId")
+                        .HasColumnType("integer");
 
                     b.Property<float>("Rating")
                         .HasColumnType("real");

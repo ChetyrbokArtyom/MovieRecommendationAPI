@@ -7,5 +7,6 @@ namespace MovieRecommendation.Application.Interfaces.Services
     {
         Task<MovieDTO> AddMoviesAsync(CreateMovieDTO movieDTO);
         Task<IEnumerable<MovieDTO>> SearchMovieByFilter(string? title, List<string>? genres, int page, int pageSize);
+        Task UpdateMovieRatingAsync(int movieId);
     }
 }

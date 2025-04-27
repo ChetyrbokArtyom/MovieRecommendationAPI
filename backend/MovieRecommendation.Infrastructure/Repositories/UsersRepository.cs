@@ -8,7 +8,7 @@ namespace MovieRecommendation.Infrastructure.Repositories
     public class UsersRepository : IUsersRepository
     {
         private readonly ApplicationDbContext _dbcontext;
-        UsersRepository(ApplicationDbContext dbcontext)
+        public UsersRepository(ApplicationDbContext dbcontext)
         {
             _dbcontext = dbcontext;
         }

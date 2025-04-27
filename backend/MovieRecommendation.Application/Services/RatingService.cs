@@ -12,11 +12,13 @@ namespace MovieRecommendation.Application.Services
         private readonly IMovieRepository _movieRepository;
         private readonly IUsersRepository _usersRepository;
         private readonly IUserRatingRepository _userRatingRepository;
-        public RatingService(IMovieRepository movieRepository, IUsersRepository usersRepository, IUserRatingRepository userRatingRepository) 
+        private readonly IMovieService _movieService;
+        public RatingService(IMovieRepository movieRepository, IUsersRepository usersRepository, IUserRatingRepository userRatingRepository, IMovieService movieService) 
         {
             _movieRepository = movieRepository;
             _usersRepository = usersRepository;
             _userRatingRepository = userRatingRepository;
+            _movieService = movieService;
         }
         public async Task<Movie> RateFilm(int MovieID,Guid UserId,float rate) 
         {
@@ -26,7 +28,8 @@ namespace MovieRecommendation.Application.Services
             {
                 throw new Exception("Movie or user not found.");
             }
-            await _userRatingRepository.UpdateUserRatingAsync(MovieID,UserId,rate); 
+            await _userRatingRepository.UpdateUserRatingAsync(MovieID,UserId,rate);
+            await _movieService.UpdateMovieRatingAsync(MovieID);
             return movie;
         }
     }

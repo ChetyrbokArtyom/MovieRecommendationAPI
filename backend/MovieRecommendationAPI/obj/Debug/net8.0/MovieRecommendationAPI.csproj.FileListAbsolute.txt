@@ -283,10 +283,10 @@ C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAP
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MovieRecommendationAPI.props
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MovieRecommendationAPI.props
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\MovieRec.C17F6C67.Up2Date
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\MovieRecommendationAPI.dll
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\refint\MovieRecommendationAPI.dll
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\MovieRecommendationAPI.pdb
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\MovieRecommendationAPI.genruntimeconfig.cache
 C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\ref\MovieRecommendationAPI.dll
+C:\Users\chete\source\repos\MovieRecommendationAPI\backend\MovieRecommendationAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

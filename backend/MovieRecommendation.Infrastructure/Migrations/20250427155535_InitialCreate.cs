@@ -1,12 +1,13 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace MovieRecommendation.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +16,8 @@ namespace MovieRecommendation.Infrastructure.Migrations
                 name: "Movie",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Title = table.Column<string>(type: "text", nullable: false),
                     Genre = table.Column<string>(type: "text", nullable: false),
                     MeanRating = table.Column<float>(type: "real", nullable: true)
@@ -45,7 +47,7 @@ namespace MovieRecommendation.Infrastructure.Migrations
                 columns: table => new
                 {
                     UserId = table.Column<Guid>(type: "uuid", nullable: false),
-                    MovieId = table.Column<Guid>(type: "uuid", nullable: false),
+                    MovieId = table.Column<int>(type: "integer", nullable: false),
                     Rating = table.Column<float>(type: "real", nullable: false)
                 },
                 constraints: table =>

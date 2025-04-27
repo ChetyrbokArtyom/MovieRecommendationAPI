@@ -3,16 +3,18 @@ using MovieRecommendation.Application.Interfaces.Services;
 using MovieRecommendation.Application.Mappers;
 using MovieRecommendation.Application.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
+using MovieRecommendation.Domain.Entities;
 
 namespace MovieRecommendation.Application.Services
 {
     public class MovieService : IMovieService
     {
         private readonly IMovieRepository _movieRepository;
-
-        public MovieService(IMovieRepository movieRepository) 
+        private readonly IUserRatingRepository _userRatingRepository;
+        public MovieService(IMovieRepository movieRepository, IUserRatingRepository userRatingRepository) 
         {
             _movieRepository = movieRepository;
+            _userRatingRepository = userRatingRepository;
         }
         public async Task<MovieDTO> AddMoviesAsync(CreateMovieDTO movieDTO) 
         {
@@ -33,6 +35,23 @@ namespace MovieRecommendation.Application.Services
                 .ToListAsync();
 
             return movies;
+        }
+
+        public async Task UpdateMovieRatingAsync(int movieId)
+        {
+            var ratings = _userRatingRepository.GetRatingsForMovie(movieId);
+
+            if (ratings.Any()) 
+            {
+                var averageRating = await ratings.AverageAsync(ur => ur.Rating);
+
+                var movie = await _movieRepository.GetByIdAsync(movieId);
+                if (movie != null)
+                {
+                    movie.MeanRating = averageRating;
+                    await _movieRepository.UpdateAsync(movie);
+                }
+            }
         }
 
     }
