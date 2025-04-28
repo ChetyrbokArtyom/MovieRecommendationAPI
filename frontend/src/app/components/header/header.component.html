@@ -6,6 +6,19 @@
     <a routerLink="/" routerLinkActive="active">Главная</a>
     <a routerLink="/popular" routerLinkActive="active">Популярное</a>
     <a routerLink="/favorites" routerLinkActive="active">Избранное</a>
+    <div class="search-container">
+      <span class="material-icons search-icon">search</span>
+      <input type="text" placeholder="Поиск..." class="search-input" [(ngModel)]="searchQuery" (input)="onSearch()" />
+      
+      <!-- Добавляем блок для результатов поиска -->
+      <div *ngIf="searchResults.length > 0" class="search-suggestions">
+        <ul>
+          <li *ngFor="let movie of searchResults" (click)="selectMovie(movie)">
+            {{ movie.title }}
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="profile-container">
       <img src="/assets/images/profile.png" alt="profile" class="profile-icon" (click)="toggleAuthModal()">
       <div class="auth-modal" *ngIf="showAuthModal">

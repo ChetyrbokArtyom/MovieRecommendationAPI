@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -18,8 +18,45 @@
     ]
   },
   {
+    "ContainingType": "MovieRecommendationAPI.Endpoints.MovieEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMovieEndpoints\u003Eb__0_0",
+    "RelativePath": "api/movies/search",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Genres",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
     "RelativePath": "movies",
     "HttpMethod": "POST",
     "IsController": false,
