@@ -1,8 +1,10 @@
-﻿namespace MovieRecommendation.Application.Interfaces.Services
+﻿using MovieRecommendation.Application.DTOs;
+
+namespace MovieRecommendation.Application.Interfaces.Services
 {
     public interface IUserService
     {
-        Task RegisterUserAsync(string login, string password);
-        Task<string> AuthenticateAsync(string login, string password);
+        Task<string> RegisterUserAsync(RegisterUserDTO registerUserDTO);
+        Task<string> AuthenticateUserAsync(AuthenticateUserDto authenticateUserDto);
     }
 }

@@ -7,6 +7,7 @@ namespace MovieRecommendation.Application.Interfaces.Repositories
         Task AddAsync(Users user);
 
         Task<Users?> FindUserByLoginAsync(string login);
+        Task<Users?> FindUserByEmailAsync(string Email);
 
         Task DeleteAsync(Guid id);
     }

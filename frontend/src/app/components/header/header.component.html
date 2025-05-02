@@ -2,15 +2,16 @@
   <div class="logo-container">
     <img src="/assets/images/logo.png" alt="Logo" class="logo" />
   </div>
+
   <nav class="nav-links">
     <a routerLink="/" routerLinkActive="active">Главная</a>
     <a routerLink="/popular" routerLinkActive="active">Популярное</a>
     <a routerLink="/favorites" routerLinkActive="active">Избранное</a>
+
     <div class="search-container">
       <span class="material-icons search-icon">search</span>
       <input type="text" placeholder="Поиск..." class="search-input" [(ngModel)]="searchQuery" (input)="onSearch()" />
-      
-      <!-- Добавляем блок для результатов поиска -->
+
       <div *ngIf="searchResults.length > 0" class="search-suggestions">
         <ul>
           <li *ngFor="let movie of searchResults" (click)="selectMovie(movie)">
@@ -19,18 +20,28 @@
         </ul>
       </div>
     </div>
+
     <div class="profile-container">
-      <img src="/assets/images/profile.png" alt="profile" class="profile-icon" (click)="toggleAuthModal()">
-      <div class="auth-modal" *ngIf="showAuthModal">
-        <div class="auth-options">
-          <button class="auth-btn register">Регистрация</button>
-          <button class="auth-btn login">Вход</button>
-          <div class="divider">
-            <span>или</span>
-          </div>
-          <button class="auth-btn social-login">войти с помощью</button>
+      <img src="/assets/images/profile.png" alt="profile" class="profile-icon" (click)="toggleAuthModal()" />
+    </div>
+    <div class="auth-modal" *ngIf="showAuthModal" #authModal>
+      <a routerLink="/register" class="auth-button">Регистрация</a>
+      <a routerLink="/login" class="auth-button">Вход</a>
+
+      <div class="divider">
+        <span>или</span>
+      </div>
+
+      <div class="social-login">
+        войти с помощью
+        <div class="social-icons">
+          <img src="/assets/images/Google.png" alt="Google" class="social-icon" />
+          <img src="/assets/images/Apple.png" alt="Apple" class="social-icon" />
+          <img src="/assets/images/VK.png" alt="VK" class="social-icon" />
+          <img src="/assets/images/Facebook.png" alt="Facebook" class="social-icon" />
         </div>
       </div>
     </div>
   </nav>
 </header>
+

@@ -30,6 +30,13 @@ namespace MovieRecommendation.Infrastructure.Repositories
                 .AsNoTracking()
                 .FirstOrDefaultAsync(us => us.Login == login);
         }
+        public async Task<Users?> FindUserByEmailAsync(string email)
+        {
+            return await _dbcontext.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(us => us.Email == email);
+        }
+
 
         public async Task DeleteAsync(Guid id) 
         {

@@ -23,6 +23,7 @@ builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IUserRatingRepository, UserRatingRepository>();
 builder.Services.AddScoped<IMovieService, MovieService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IRatingService, RatingService>();
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
@@ -67,6 +68,7 @@ app.MapPost("/movies", async ([FromBody] CreateMovieDTO movieDto, IMovieService 
 });
 
 app.MapGet("/", () => "Hello World!");
-app.MapMovieEndpoints(); 
+app.MapMovieEndpoints();
+app.MapUserEndpoints();
 
 app.Run();
