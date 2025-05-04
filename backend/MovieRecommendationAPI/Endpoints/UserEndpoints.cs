@@ -23,6 +23,21 @@ namespace MovieRecommendationAPI.Endpoints
                     return Results.BadRequest(new { Error = ex.Message });
                 }
             });
+            app.MapPost("/api/user/Login", async (
+                IUserService userService,
+                [FromBody] AuthenticateUserDto dto
+                ) =>
+            {
+                try
+                {
+                    var token = await userService.AuthenticateUserAsync(dto);
+                    return Results.Ok(new { Token = token });
+                }
+                catch (InvalidOperationException ex)
+                {
+                    return Results.BadRequest(new { Error = ex.Message });
+                }
+            });
         }
     }
 }

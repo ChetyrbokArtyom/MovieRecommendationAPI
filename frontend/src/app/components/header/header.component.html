@@ -21,9 +21,19 @@
       </div>
     </div>
 
-    <div class="profile-container">
-      <img src="/assets/images/profile.png" alt="profile" class="profile-icon" (click)="toggleAuthModal()" />
+    <div class="profile-container" *ngIf="username; else guest">
+      <a class="username-link" (click)="toggleProfileMenu()">{{ username }}</a>
+      <div *ngIf="profileMenuVisible" class="profile-menu">
+        <a [routerLink]="['/profile', username]" class="profile-menu-item">Перейти в профиль</a>
+        <a (click)="logout()" class="profile-menu-item">Выйти</a>
+      </div>
     </div>
+    
+    <ng-template #guest>
+      <div class="profile-container">
+        <img src="/assets/images/profile.png" alt="profile" class="profile-icon" (click)="toggleAuthModal()" />
+      </div>
+    </ng-template>
     <div class="auth-modal" *ngIf="showAuthModal" #authModal>
       <a routerLink="/register" class="auth-button">Регистрация</a>
       <a routerLink="/login" class="auth-button">Вход</a>

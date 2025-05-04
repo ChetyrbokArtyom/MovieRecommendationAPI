@@ -183,3 +183,48 @@
 .search-suggestions li:hover {
   background-color: #f0f0f0;
 }
+
+.profile-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 8px 0;
+  z-index: 1000;
+  border: 1px solid #f1f1f1;
+}
+
+.profile-menu-item {
+  display: block;
+  padding: 10px 16px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.profile-menu-item:hover {
+  background-color: #fde2e2;
+  color: #ff3d00;
+}
+
+.username-link {
+  cursor: pointer;
+  color: #000;
+  font-weight: 500;
+  position: relative;
+  padding-right: 15px;
+}
+
+.username-link::after {
+  content: "▼";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  color: #666;
+}

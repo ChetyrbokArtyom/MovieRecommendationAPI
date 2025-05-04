@@ -34,27 +34,29 @@ namespace MovieRecommendation.Application.Services
             return _jwtTokenService.GenerateToken(user);
         }
 
-        public async Task<string> AuthenticateUserAsync(AuthenticateUserDto authenticateUserDto) 
+        public async Task<string> AuthenticateUserAsync(AuthenticateUserDto dto)
         {
             Users? user = null;
 
-            if (!string.IsNullOrWhiteSpace(authenticateUserDto.Login))
+            if (dto.Identifier.Contains("@"))
             {
-                user = await _usersRepository.FindUserByLoginAsync(authenticateUserDto.Login);
+                user = await _usersRepository.FindUserByEmailAsync(dto.Identifier);
             }
-            else if (!string.IsNullOrWhiteSpace(authenticateUserDto.Email))
+            else
             {
-                user = await _usersRepository.FindUserByEmailAsync(authenticateUserDto.Email);
+                user = await _usersRepository.FindUserByLoginAsync(dto.Identifier);
             }
+
             if (user == null)
                 throw new UnauthorizedAccessException("Пользователь не найден");
 
-            var result = _passwordHasher.VerifyHashedPassword(user, user.Password, authenticateUserDto.Password);
+            var result = _passwordHasher.VerifyHashedPassword(user, user.Password, dto.Password);
             if (result == PasswordVerificationResult.Failed)
                 throw new UnauthorizedAccessException("Неверный пароль");
 
             return _jwtTokenService.GenerateToken(user);
         }
+
 
 
     }

@@ -1,30 +1,44 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { FormsModule, NgForm } from '@angular/forms';
+import { Router, RouterModule } from '@angular/router';
+import { AuthService } from '../../Services/auth.service'; 
+
 
 @Component({
   selector: 'app-registration',
   standalone: true,
-  imports: [CommonModule, FormsModule], // Добавляем FormsModule
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './registration.component.html',
   styleUrls: ['./registration.component.scss']
 })
 export class RegistrationComponent {
-  // Явно объявляем свойство user
   user = {
     username: '',
     email: '',
     password: ''
   };
 
-  constructor(private router: Router) {}
+  confirmPassword: string = '';
+  passwordError = '';
+  emailError = '';
+  showPassword: boolean = false;
+  constructor(private router: Router, private authService: AuthService) {}
 
-  // Явно объявляем метод onSubmit
-  onSubmit(): void {
-    console.log('Регистрация:', this.user);
-    // Здесь будет вызов сервиса для регистрации
-    // После успешной регистрации:
-    // this.router.navigate(['/']);
+  onSubmit(form: NgForm): void {
+    if (!form.valid || this.user.password !== this.confirmPassword) {
+      return;
+    }
+
+    this.authService.register(this.user).subscribe({
+      next: (response) => {
+        localStorage.setItem('token', response.token);
+        this.router.navigate(['/']);
+      },
+      error: (err) => {
+        console.error('Ошибка регистрации:', err);
+        alert(err.error?.error || 'Ошибка регистрации');
+      }
+    });
   }
 }

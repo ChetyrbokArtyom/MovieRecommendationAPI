@@ -2,9 +2,7 @@
 {
     public class AuthenticateUserDto
     {
-        public string? Login { get; set; }
-        public string? Email { get; set; }
-
+        public string Identifier { get; set; } = string.Empty;
         public string Password { get; set; }
     }
 }

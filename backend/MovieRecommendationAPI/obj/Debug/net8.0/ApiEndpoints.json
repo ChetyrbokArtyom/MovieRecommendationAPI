@@ -56,6 +56,28 @@
   },
   {
     "ContainingType": "MovieRecommendationAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_1",
+    "RelativePath": "api/user/Login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MovieRecommendation.Application.DTOs.AuthenticateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MovieRecommendationAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
     "Method": "\u003CMapUserEndpoints\u003Eb__0_0",
     "RelativePath": "api/user/Register",
     "HttpMethod": "POST",
